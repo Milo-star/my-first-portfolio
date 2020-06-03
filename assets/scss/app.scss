@@ -1,0 +1,23 @@
+/*====== App CSS ======*/
+/*
+* CSS by Fragan Gourvil
+* Version 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+/*====== Normalize ======*/
+
+@import 'base/var.scss';
+@import 'base/normalize.scss';
+@import 'base/animation.scss';
+
+/*====== Layout ======*/
+
+@import 'layout/header.scss';
+@import 'layout/section.scss';
+@import 'layout/skillsbar.scss';
+@import 'layout/profil.scss';
+@import 'layout/project.scss';
+@import 'layout/footer.scss';

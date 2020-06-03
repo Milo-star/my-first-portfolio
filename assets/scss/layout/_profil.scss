@@ -1,0 +1,36 @@
+.profil-content {
+
+	display: flex;
+	justify-content: center;
+
+	img {
+
+		width: 330px;
+		height: 330px;
+		display: block;
+		margin: 0 auto;
+
+	}
+
+	h3 {
+
+		margin-top: 1em;
+		text-align: center;
+
+		span {
+
+			color: $green;
+
+		}
+
+	}
+
+	p {
+
+		font-style: italic;
+		color: #777;
+		text-align: center;
+
+	}
+
+}

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+section {
+  padding: 100px;
+
+  @media (max-width: 768px)
+  {
+    padding: 0px;
+  }
+
+}
+
+.white-section {
+  color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $green;
+}

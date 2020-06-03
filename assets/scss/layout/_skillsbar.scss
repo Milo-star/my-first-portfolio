@@ -1,0 +1,43 @@
+.skills-bar-content {
+
+	.skills-bar-container {
+
+		width: 100%;
+		background-color: #eee;
+		margin-bottom: 25px;
+
+		.skills-bar-lvl {
+
+			background-color: $green;
+			width: 150px;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			span {
+				height: 30px;
+				line-height: 30px;
+				margin-right: 10px;
+				opacity: 0;
+				transition: all .5s;
+			}
+
+			.skills-bar-head {
+
+				background-color: #00C589;
+				width: 150px;
+				min-width: 150px;
+				text-align: center;
+				font-weight: 700;
+				height: 35px;
+				line-height: 35px;
+				flex-basis: 150px;
+
+			}
+
+		}
+
+	}
+
+}

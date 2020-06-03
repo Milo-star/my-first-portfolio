@@ -1,0 +1,56 @@
+footer {
+
+  background-color: $grey;
+  padding: 120px 0;
+  font-family: 'Montserrat', sans-serif;
+
+
+
+  .footer-content {
+
+    .footer-content-title {
+
+      color: #fff;
+
+      font-weight: 500;
+      font-size: 23px;
+      letter-spacing: -1px;
+
+    }
+
+    .footer-content-text {
+
+      color: #aaa;
+
+      .footer-content-newsletter {
+
+        input {
+
+          padding: 4px 6px;
+          border: none;
+          width: calc(100% - 37px);
+          height: 35px;
+
+        }
+
+        button {
+
+          border: none;
+          background-color: $green;
+          width: 150px;
+          height: 35px;
+          margin-top: 20px;
+          text-transform: uppercase;
+          color: #fff;
+          font-size: 12px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
